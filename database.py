@@ -1,7 +1,7 @@
 import sqlite3
 
-def register_user(username, password):
 
+def register_user(username, password):
     try:
         conn = sqlite3.connect("dino_quest.db")
         cursor = conn.cursor()
@@ -72,6 +72,7 @@ def update_game_data(user_id, current_level=None, coins=None, high_score=None):
 
     conn.commit()
     conn.close()
+
 
 if __name__ == "__main__":
     print("База данных успешно инициализирована.")
