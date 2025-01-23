@@ -2,7 +2,7 @@ import pygame
 import random
 
 class Bird:
-    BIRD_HEIGHTS = [250, 300, 350]
+    BIRD_HEIGHTS = [250, 300, 310]
 
     def __init__(self):
         self.images = [
