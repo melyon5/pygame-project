@@ -14,6 +14,7 @@ LARGE_CACTUS = [
     pygame.image.load(os.path.join("assets/Cactus", "LargeCactus3.png")),
 ]
 
+
 class Obstacle:
     def __init__(self, image, y_pos):
         self.image = image
@@ -28,6 +29,7 @@ class Obstacle:
 
     def draw(self, screen):
         screen.blit(self.image, (self.rect.x, self.rect.y))
+
 
 def get_random_obstacle():
     if random.randint(0, 1) == 0:

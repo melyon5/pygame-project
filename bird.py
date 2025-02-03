@@ -1,6 +1,7 @@
 import pygame
 import random
 
+
 class Bird:
     BIRD_HEIGHTS = [250, 300, 310]
 
