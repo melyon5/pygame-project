@@ -1,6 +1,5 @@
 import pygame
 import random
-import sys
 from bird import Bird
 from dino import Dino
 from obstacle import get_random_obstacle

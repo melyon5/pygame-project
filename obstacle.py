@@ -2,7 +2,6 @@ import pygame
 import os
 import random
 
-# Загрузка изображений
 SMALL_CACTUS = [
     pygame.image.load(os.path.join("assets/Cactus", "SmallCactus1.png")),
     pygame.image.load(os.path.join("assets/Cactus", "SmallCactus2.png")),

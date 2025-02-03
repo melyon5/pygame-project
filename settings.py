@@ -3,7 +3,6 @@ from PyQt6.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QLabel, QComboBox, QPushButton, QCheckBox
 )
 from PyQt6.QtCore import Qt
-from PyQt6.QtGui import QFont
 from auth import show_auth_screen
 
 

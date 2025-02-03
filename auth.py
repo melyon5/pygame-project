@@ -3,7 +3,7 @@ from PyQt6.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QLabel,
     QLineEdit, QPushButton, QMessageBox
 )
-from PyQt6.QtGui import QFont, QIcon
+from PyQt6.QtGui import QIcon
 from PyQt6.QtCore import Qt
 from db import register_user, authenticate_user
 
